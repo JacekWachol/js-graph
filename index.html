@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="graph.css">
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+  <section>
+    <div class="graph-container">
+      <div class="graph">
+          <div class="bar"><p id="numeric-bass-first" class="numeric-bar first"></p><p id="numeric-bass-second" class="numeric-bar second"></p><div class="total"><div id="bar-bass-first" class="filled"></div><div id="bar-bass-second" class="filled second-fill"></div></div></div>
+          <div class="bar"><p id="numeric-mids-first" class="numeric-bar first"></p><p id="numeric-mids-second" class="numeric-bar second"></p><div class="total"><div id="bar-mids-first" class="filled"></div><div id="bar-mids-second" class="filled second-fill"></div></div></div>
+          <div class="bar"><p id="numeric-highs-first" class="numeric-bar first"></p><p id="numeric-highs-second" class="numeric-bar second"></p><div class="total"><div id="bar-highs-first" class="filled"></div><div id="bar-highs-second" class="filled second-fill"></div></div></div>
+          <div class="bar"><p id="numeric-headroom-first" class="numeric-bar first"></p><p id="numeric-headroom-second" class="numeric-bar second"></p><div class="total"><div id="bar-headroom-first" class="filled"></div><div id="bar-headroom-second" class="filled second-fill"></div></div></div>
+          <div class="bar"><p id="numeric-imaging-first" class="numeric-bar first"></p><p id="numeric-imaging-second" class="numeric-bar second"></p><div class="total"><div id="bar-imaging-first" class="filled"></div><div id="bar-imaging-second" class="filled second-fill"></div></div></div>
+          <div class="bar"><p id="numeric-depth-first" class="numeric-bar first"></p><p id="numeric-depth-second" class="numeric-bar second"></p><div class="total"><div id="bar-depth-first" class="filled"></div><div id="bar-depth-second" class="filled second-fill"></div></div></div>
+          <div class="bar"><p id="numeric-warmth-first" class="numeric-bar first"></p><p id="numeric-warmth-second" class="numeric-bar second"></p><div class="total"><div id="bar-warmth-first" class="filled"></div><div id="bar-warmth-second" class="filled second-fill"></div></div></div>
+          <div class="bar"><p id="numeric-brightness-first" class="numeric-bar first"></p><p id="numeric-brightness-second" class="numeric-bar second"></p><div class="total"><div id="bar-brightness-first" class="filled"></div><div id="bar-brightness-second" class="filled second-fill"></div></div></div>
+      </div>
+      <div class="graph-legend">
+        <div><span>Bass</span></div>
+        <div><span>Mids</span></div>
+        <div><span>Highs</span></div>
+        <div><span>Headroom</span></div>
+        <div><span>Imaging</span></div>
+        <div><span>Depth</span></div>
+        <div><span>Warmth</span></div>
+        <div><span>Brightness</span></div>
+      </div>
+    </div>
+    <div class="earphone-list">
+        <div class="single-model" data-model="musicone" data-graph='{"bass":"40","mids":"70", "highs":"70","headroom":"40","imaging":"40", "depth":"30","warmth":"50","brightness":"60"}'>
+          <h2>Music One</h2>
+          <p>Kamil uzupełnić</p>
+        </div>
+        <div class="single-model" data-model="musictwo" data-graph='{"bass":"70","mids":"80", "highs":"80","headroom":"60","imaging":"60", "depth":"50","warmth":"60","brightness":"70"}'>
+          <h2>Music Two</h2>
+          <p>Kamil uzupełnić</p>
+        </div>
+        <div class="single-model" data-model="pro330" data-graph='{"bass":"60","mids":"90", "highs":"70","headroom":"70","imaging":"60", "depth":"80","warmth":"70","brightness":"40"}'>
+          <h2>Pro 330</h2>
+          <p>Kamil uzupełnić</p>
+        </div>
+        <div class="single-model" data-model="ei3" data-graph='{"bass":"80","mids":"60", "highs":"50","headroom":"80","imaging":"70", "depth":"80","warmth":"80","brightness":"50"}'>
+          <h2>Ei.3</h2>
+          <p>Kamil uzupełnić</p>
+        </div>
+        <div class="single-model" data-model="harmony82" data-graph='{"bass":"90","mids":"100", "highs":"90","headroom":"100","imaging":"100", "depth":"90","warmth":"60","brightness":"70"}'>
+          <h2>Harmony 8.2</h2>
+          <p>Kamil uzupełnić</p>
+        </div>
+    </div>
+  </section>
+</body>
+</html>
